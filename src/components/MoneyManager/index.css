@@ -1,0 +1,200 @@
+/* Write your CSS here */
+.outside-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+.manager-head-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 200px;
+  width: 1000px;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.span-color {
+  color: #0b69ff;
+}
+.form-container {
+  height: 500px;
+  width: 400px;
+  border: 1px solid #d7dfe9;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.input-title {
+  height: 40px;
+  width: 250px;
+}
+.select-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.select-input {
+  height: 40px;
+  width: 250px;
+}
+.label {
+  color: #7e858e;
+}
+.label-1 {
+  color: #475569;
+}
+.alignform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-style {
+  height: 40px;
+  width: 100px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.form-container-1 {
+  height: 500px;
+  width: 550px;
+  border: 1px solid #d7dfe9;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-align-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.history {
+  height: 100px;
+  width: 530px;
+  border: 1px solid #d7dfe9;
+
+  display: flex;
+  flex-direction: row;
+}
+.unorder-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 530px;
+  border: 1px solid #d7dfe9;
+  border-top: none;
+}
+.table-align {
+  display: flex;
+  flex-direction: column;
+}
+.text-color {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .manager-head-section {
+    height: 180px;
+    width: 280px;
+  }
+  .head {
+    font-size: 25px;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .bottom-align-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container {
+    height: 400px;
+    width: 250px;
+  }
+  .label-1 {
+    font-size: 20px;
+  }
+  .input-title {
+    width: 200px;
+  }
+  .select-input {
+    width: 200px;
+  }
+  .form-container-1 {
+    height: 400px;
+    width: 280px;
+  }
+  .history {
+    height: 50px;
+    width: 260px;
+  }
+  .text-color {
+    font-size: 15px;
+    margin-left: 3px;
+  }
+  .unorder-container {
+    height: 50px;
+    width: 260px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .outside-container{
+    justify-content: center;
+  }
+  .manager-head-section {
+    width: 700px;
+  }
+  .form-container {
+    height: 400px;
+    width: 230px;
+  }
+  .input-title {
+    width: 150px;
+  }
+  .select-input {
+    width: 150px;
+  }
+  .label-1 {
+    font-size: 18px;
+  }
+  .form-container-1 {
+    height: 400px;
+    width: 440px;
+  }
+  .history {
+    width: 410px;
+  }
+  .text-color {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 70px;
+  }
+  .unorder-container {
+    width: 410px;
+  }
+}

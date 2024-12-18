@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.balance-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.balance-container {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #84cc16;
+  border-radius: 20px;
+  background-color: #ecfccb;
+  margin-right: 20px;
+}
+.img-size {
+  height: 60px;
+  width: 60px;
+  margin: 30px;
+}
+.align-balance {
+  display: flex;
+  padding: 10px;
+}
+.balance-container-1 {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #06b6d4;
+  border-radius: 20px;
+  background-color: #cffafe;
+  margin-right: 20px;
+}
+.balance-container-2 {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #7c3aed;
+  border-radius: 20px;
+  background-color: #ede9fe;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .balance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .balance-container {
+    width: 260px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+  .balance-container-1 {
+    width: 260px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+  .balance-container-2 {
+    width: 260px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:768px){
+
+  .balance-container{
+    height: 150px;
+    width: 220px;
+  }
+  .balance-container-1{
+    height: 150px;
+    width: 220px;
+
+  }
+  .balance-container-2{
+     height: 150px;
+    width: 220px;
+
+  }
+}
